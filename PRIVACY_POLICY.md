@@ -1,225 +1,256 @@
 # Privacy Policy
 
-**Effective Date: January 2025**  
-**Last Updated: January 2025**
+**Bankroll Buddy**
 
-## Introduction
+**Effective date: 17 August 2026**
+**Last updated: 17 August 2026**
+**Version: 2.0** (see Change log at the end of this document)
 
-Bankroll Buddy ("we," "our," or "the App") is committed to protecting your privacy. This Privacy Policy explains how we handle information when you use our poker bankroll tracking application.
-
-## Our Privacy Commitment
-
-**Your data stays on your device.** Bankroll Buddy is designed with privacy as a fundamental principle. We do not collect, store, or have access to your personal poker data.
-
-## Information We Do NOT Collect
-
-We do NOT collect, store, or have access to:
-- Your name or personal identification
-- Your poker session data or results
-- Your bankroll information
-- Your financial transactions
-- Your location data
-- Your contacts
-- Your photos (unless you choose to attach them to sessions)
-- Any personally identifiable information
-
-## Data Storage
-
-### Local Storage Only
-- All your poker data is stored locally on your device
-- Data includes: sessions, bankroll transactions, statistics, opponents, hands, and staking deals
-- Photos attached to sessions are stored locally on your device
-- We use your device's SharedPreferences/UserDefaults for data persistence
-- No cloud storage or external servers are used for your data
-- You have complete control over your data
-
-### Data Security
-- Your data is protected by your device's built-in security features
-- We recommend using device-level security (passcode, biometric authentication)
-- Data encryption depends on your device's operating system settings
-- We do not have access to decrypt or view your data
-
-## Analytics and Crash Reporting
-
-### Anonymous Analytics
-We may collect limited, anonymous analytics to improve the App:
-- App crashes and error reports
-- Feature usage statistics (which screens are visited)
-- Device type and operating system version
-- App version
-
-This information:
-- Contains NO personal information
-- Contains NO poker data or results
-- Is completely anonymous
-- Cannot be linked back to you
-- Is used solely for App improvement
-
-### Opt-Out
-You can disable analytics through your device settings:
-- iOS: Settings > Privacy & Security > Analytics & Improvements
-- Android: Settings > Google > Ads > Opt out of Ads Personalization
-
-## Permissions
-
-The App may request the following permissions:
-
-### Camera/Photo Library (Optional)
-- Purpose: To attach photos to poker sessions
-- Usage: Only when you explicitly choose to add a photo
-- Storage: Photos remain on your device only
-- We never access photos without your explicit action
-
-### Notifications (Optional)
-- Purpose: Local reminders or alerts you set
-- Usage: Only for local notifications, not push notifications
-- No data is sent to external servers
-
-## Data Sharing
-
-We do NOT share your data because we don't have access to it. Specifically:
-- No sharing with third parties
-- No selling of data
-- No advertising networks
-- No data brokers
-- No analytics beyond anonymous crash reporting
-
-### Export Feature
-- You can export your data for personal use
-- Exported data remains under your control
-- We are not responsible for data you choose to share
-
-## International Users
-
-The App is available globally. Your data remains on your device regardless of your location. We do not transfer data across borders because we don't have access to your data.
-
-## Children's Privacy
-
-The App is not intended for users under 18 years of age. We do not knowingly collect information from children under 18. Poker tracking implies adult activity.
-
-## Data Deletion
-
-### Complete Control
-Since all data is stored locally:
-- Uninstalling the App deletes all data
-- You can clear data through device settings
-- No data remains on any servers
-- Deletion is immediate and permanent
-
-### Backup Responsibility
-You are responsible for backing up your data if desired. We recommend regular exports if you want to preserve your data.
-
-## Third-Party Services
-
-### App Stores
-When you download the App from:
-- Apple App Store: Subject to Apple's Privacy Policy
-- Google Play Store: Subject to Google's Privacy Policy
-
-These stores may collect data about app downloads and updates.
-
-### No Other Third Parties
-We do not integrate with:
-- Social media platforms
-- Advertising networks
-- Analytics services (beyond anonymous crash reporting)
-- Cloud storage services
-- Payment processors
-
-## Your Rights
-
-You have complete rights over your data:
-- **Access**: Your data is always accessible on your device
-- **Correction**: Edit any data directly in the App
-- **Deletion**: Delete specific records or all data
-- **Portability**: Export your data at any time
-- **Control**: No data leaves your device without your action
-
-## Changes to Privacy Policy
-
-We may update this Privacy Policy periodically. Changes will be indicated by:
-- Updating the "Last Updated" date
-- Notification through App update notes
-- In-app notification for significant changes
-
-Continued use after changes constitutes acceptance.
-
-## California Privacy Rights
-
-California residents have additional rights under CCPA:
-- We don't sell personal information (we don't have access to it)
-- We don't collect personal information
-- No need to opt-out as no data is collected
-
-## European Union Privacy Rights
-
-EU residents have rights under GDPR:
-- **Data Controller**: You are the data controller
-- **Data Processor**: The App acts as a tool only
-- **Legal Basis**: Not applicable as no data is collected
-- **Data Protection**: Handled by your device security
-
-## Security Measures
-
-While we don't have access to your data, we implement:
-- Secure coding practices
-- Regular security updates
-- No network connections for data transmission
-- No external API calls for your poker data
-- Code reviews and testing
-
-## Data Breach Notification
-
-Since we don't have access to your data:
-- We cannot experience a data breach of your poker data
-- Device-level breaches are outside our control
-- We recommend device security best practices
-
-## Contact Information
-
-For privacy-related questions:
-- GitHub Issues at our official repository
-- App Store review and support section
-- Email (if provided in App Store listing)
-
-## Transparency Report
-
-We commit to transparency:
-- We have never received requests for user data (we couldn't comply if we did)
-- We have never shared user data (we don't have access to it)
-- We have never been subject to any government surveillance orders
-
-## Special Jurisdictions
-
-### Nevada Residents
-We do not sell covered information as defined under Nevada law.
-
-### Brazilian Residents (LGPD)
-Your data remains on your device in compliance with Brazilian data protection law.
-
-### Canadian Residents (PIPEDA)
-We comply with Canadian privacy law by not collecting personal information.
-
-## Frequently Asked Questions
-
-**Q: Where is my data stored?**
-A: Exclusively on your device's local storage.
-
-**Q: Can you see my poker results?**
-A: No, we have no access to any of your data.
-
-**Q: What happens if I lose my phone?**
-A: Your data is lost unless you've made backups. We cannot recover it.
-
-**Q: Is my data encrypted?**
-A: Encryption depends on your device settings. Enable device encryption for security.
-
-**Q: Can I use the App without sharing data?**
-A: Yes, the App works entirely offline with no data sharing.
+> **Note on the previous version.** The version of this policy dated January 2025 said that
+> all data stayed on your device and that no data was sent to any server. That was wrong:
+> Bankroll Buddy backs your data up to the cloud by default, and has done for some time.
+> This version describes what the App actually does. We are sorry for the inaccuracy.
 
 ---
 
-**Your privacy is our priority. Bankroll Buddy gives you complete control over your poker tracking data by keeping it exclusively on your device.**
+## 1. Who we are
 
-**Last Reviewed: January 2025**  
-**Contact**: [Provided through App Store channels]
+The controller of your personal data is:
+
+> **KAWI SOFTWARE AS**
+> Organisation number: 933 580 873
+> Fredrik Meltzers gate 13B, 5007 Bergen, Norway
+> Email: **support@kawisoftware.com**
+
+We have not appointed a Data Protection Officer; privacy questions go to the address above.
+
+## 2. The short version
+
+- Your data is stored **on your device**, and — unless you turn it off — is also **backed
+  up to our cloud service** so you can restore it on a new device.
+- To do that, the App **creates a pseudonymous account for you automatically** on first
+  launch. You do not have to enter anything, and we do not know who you are unless you
+  choose to sign in with Google or Apple.
+- **You can turn cloud backup off** at any time in Settings, and you can **export or delete
+  your data** at any time.
+- Anything you deliberately publish through the social features (profile, shared sessions,
+  comments) is visible to other users. Everything else is private to your account.
+- We do not sell your data, we do not use it for advertising, and we do not track you
+  across other companies' apps or websites.
+
+## 3. What we process, why, and on what legal basis
+
+### 3.1 Account identifier
+
+When you first open the App it signs you in anonymously to Firebase Authentication and
+receives a **pseudonymous user ID (UID)**. Your IP address and authentication tokens are
+processed as an inherent part of that request. The UID is what links your backup, your
+profile and your diagnostics together.
+
+*Purpose:* to give you an account that can hold a backup.
+*Legal basis:* performance of our contract with you (GDPR Art. 6(1)(b)).
+
+If you choose to **sign in with Google or with Apple** — which we recommend, so that your
+backup survives losing your device — we additionally receive your **email address** (or an
+Apple private-relay address) and, where you allow it, your **name and profile picture**.
+These are held in the Firebase Authentication record. Signing in is optional.
+
+### 3.2 Your poker and gambling records (cloud backup)
+
+**Cloud backup is on by default and can be turned off in Settings.** While it is on, the
+data you enter is copied to our cloud database under your UID. That includes:
+
+- **Sessions:** start and end time, buy-in, cash-out, rebuys, expenses, rake, game type,
+  format, stakes, currency and exchange rate, hands played, your free-text notes and tags,
+  live buy-in and chip-stack timelines, and breaks.
+- **Location of play, where you record it:** the venue name, its postal address, its Google
+  Place ID, and its **GPS coordinates**.
+- **Wellbeing entries you choose to make:** mood rating, tilt flag and hours slept.
+- **Tax fields you choose to enter**, such as whether a W-2G was issued and any amount
+  withheld.
+- **Bankrolls and transactions:** names, balances, currencies, deposits, withdrawals,
+  adjustments and their notes.
+- **Staking arrangements:** the names of backers, stakers and swap partners you enter,
+  percentages, markup and notes.
+- **Opponents you record:** the names or nicknames you give them, your free-text notes
+  about them, play-style labels and tap-counter statistics.
+- **Hands you record:** cards, board, positions, actions, results and notes.
+- **Trips, session templates, streak and challenge state, and your settings.**
+
+> **Please note:** if you enter another person's real name — as an opponent, a backer or a
+> home-game player — you are entering someone else's personal data. Please only record what
+> you need, and be aware that you are responsible for what you write about other people.
+
+*Purpose:* to back up your records and restore them to your devices.
+*Legal basis:* performance of our contract with you (Art. 6(1)(b)).
+*Turn it off:* Settings → cloud backup. Turning it off stops further syncing.
+
+Photos you attach to a session stay **on your device** — only the file reference is backed
+up, not the image.
+
+### 3.3 Your public profile and the social features
+
+If you use the optional social features, the following is stored in our cloud database and
+is visible to other users according to your privacy setting:
+
+- display name, username and short bio;
+- your **profile photo**, stored inside your profile record;
+- who you follow and who follows you, and follower counts;
+- any sessions you choose to share, and comments you post.
+
+Profiles are private by default. You control what you share.
+
+*Purpose:* to operate the social features you choose to use.
+*Legal basis:* performance of our contract with you (Art. 6(1)(b)).
+
+### 3.4 Subscriptions
+
+We use **RevenueCat** to manage subscription entitlements. RevenueCat receives a purchase
+identifier and your subscription status; we store that RevenueCat identifier alongside your
+profile so the App knows whether Pro is active. **We never receive your card details** —
+Apple and Google process the payment.
+
+*Purpose:* to give you what you paid for, and to support you if billing goes wrong.
+*Legal basis:* performance of our contract (Art. 6(1)(b)); legal obligation for accounting
+records (Art. 6(1)(c)).
+
+### 3.5 Crash reports and diagnostics
+
+To find and fix faults, the App sends:
+
+- **Crash and error reports** (Firebase Crashlytics and our own error log): the error
+  message and type, the full stack trace, the app version and build, the platform, the
+  operating system version, a coarse device model, the screen you were on and the last few
+  screens you visited. Crashlytics reports carry your UID.
+- **Diagnostic events** (our own log): a category and event name, a short message, a
+  severity, and the same device and screen context. These carry your UID.
+
+These are not marketing analytics and are not shared with advertisers. Stack traces and
+context can occasionally contain fragments of text you typed; we do not seek that out and
+we delete diagnostic data on the schedule in section 6.
+
+*Purpose:* to keep the App working, diagnose failures and protect against abuse.
+*Legal basis:* our legitimate interest in a functioning, secure product (Art. 6(1)(f)).
+You may object to this — see section 7.
+
+### 3.6 Community benchmarks (opt-in)
+
+If — and only if — you switch on the benchmark feature, your already-backed-up results are
+included in a server-side calculation that produces **anonymous** percentile distributions
+across many players. Only aggregate figures are published, and only for groups above a
+minimum size. No individual results are shown to anyone.
+
+*Purpose:* to let you compare your results against other players.
+*Legal basis:* your consent (Art. 6(1)(a)). You can withdraw it at any time in Settings.
+
+### 3.7 What we do **not** do
+
+- We do not sell personal data.
+- We do not use your data for advertising, and there are no advertising SDKs in the App.
+- We do not track you across other companies' apps or websites, and we do not ask for the
+  iOS App Tracking Transparency permission.
+- We do not read your photo library; the App only receives a photo when you pick one.
+
+## 4. Who processes data for us
+
+| Recipient | What they do | Where |
+|---|---|---|
+| **Google (Firebase Authentication, Realtime Database, Cloud Firestore, Crashlytics)** | Account identifiers, cloud backup, profiles, crash and diagnostic reporting | EU and United States |
+| **RevenueCat, Inc.** | Subscription entitlement management | United States |
+| **Apple / Google Play** | Sell and bill subscriptions as merchant of record; they are independent controllers for the payment | Global |
+
+Each acts as our processor under a data-processing agreement, except Apple and Google Play
+in their role as sellers, where they act as independent controllers under their own privacy
+policies.
+
+**International transfers.** Some of these providers process data outside the EEA,
+including in the United States. Those transfers rely on the European Commission's Standard
+Contractual Clauses and, where applicable, the EU–US Data Privacy Framework. You can ask us
+for details.
+
+## 5. Public disclosure
+
+Content you publish through the social features is visible to other users, and to anyone if
+your profile is public. Please do not put anything in a public profile, bio, shared session
+or comment that you would not want to be seen.
+
+## 6. How long we keep data
+
+- **Your backup and profile:** for as long as your account exists. If you delete your
+  account, we delete them, and they disappear from our backups within 90 days.
+- **Crash and diagnostic data:** up to 90 days, then deleted or fully anonymised.
+- **Aggregated benchmark statistics:** kept indefinitely, but they contain no personal data.
+- **Accounting records for purchases:** as long as Norwegian bookkeeping law requires
+  (currently five years).
+
+If you turn cloud backup off, we stop syncing new data. Ask us if you also want the
+existing backup erased — see section 7.
+
+## 7. Your rights
+
+Wherever you live, you can email **support@kawisoftware.com** to exercise any of these. If
+you are in the EEA or the UK, they are rights under the GDPR:
+
+- **Access** — a copy of the personal data we hold about you.
+- **Rectification** — correction of anything inaccurate.
+- **Erasure** — deletion of your account and data. You can also delete data in the App.
+- **Restriction** and **objection** — including objecting to the diagnostic processing in
+  section 3.5, which relies on legitimate interests.
+- **Portability** — your data in a machine-readable form. You can also export it yourself
+  from the App at any time.
+- **Withdraw consent** — for example the benchmark opt-in, at any time, without affecting
+  processing already carried out.
+
+We answer within 30 days. There is no charge.
+
+**Complaints.** If you think we have handled your data badly, please tell us first. You may
+also complain to the Norwegian Data Protection Authority, Datatilsynet
+(https://www.datatilsynet.no), or to the supervisory authority where you live.
+
+### Rights in other regions
+
+- **California (CCPA/CPRA):** we do not sell or share personal information as those terms
+  are defined, and we do not use it for cross-context behavioural advertising. You have
+  rights to know, delete and correct — use the contact address above. We will not
+  discriminate against you for exercising them.
+- **Brazil (LGPD), Canada (PIPEDA), UK GDPR, and similar regimes:** the rights in this
+  section are available to you on the same terms.
+- **Nevada:** we do not sell covered information.
+
+## 8. Security
+
+Access to your backup is restricted to your own account by server-side security rules.
+Data is encrypted in transit, and encrypted at rest by our infrastructure providers. We
+keep our dependencies current and limit who can access production systems.
+
+No system is perfectly secure. If a breach occurs that is likely to result in a risk to
+your rights and freedoms, we will notify Datatilsynet within 72 hours and tell you directly
+where the law requires it.
+
+## 9. Children
+
+The App is intended for adults aged 18 and over. We do not knowingly collect personal data
+from anyone under 18. If we learn that we have, we will delete it. A parent or guardian can
+contact support@kawisoftware.com.
+
+## 10. Changes to this policy
+
+We will update this policy when the App changes. For material changes we will give notice
+in the App at least 30 days before they take effect, and we will update the version and
+date above. Past versions are summarised in the change log below.
+
+## 11. Contact
+
+**KAWI SOFTWARE AS**
+Organisation number: 933 580 873
+Fredrik Meltzers gate 13B, 5007 Bergen, Norway
+Email: **support@kawisoftware.com**
+
+---
+
+## Change log
+
+| Version | Date | Summary |
+|---|---|---|
+| 2.0 | 2026-08-17 | Complete rewrite for accuracy. The previous version stated that no data left the device and that we had no access to it; in fact the App creates a pseudonymous account on first launch and backs the user's records up to Firebase by default. This version identifies KAWI SOFTWARE AS as controller with a working contact address, describes every category of data actually processed (including venue GPS coordinates, wellbeing and tax fields, opponent names and notes, staking counterparties, profile photos and diagnostics), names the processors (Google Firebase, Crashlytics, RevenueCat), states the Art. 6 legal bases, retention periods, international-transfer safeguards, and the full set of data-subject rights. Removed the unverifiable transparency-report and "we cannot experience a data breach" claims. |
+| 1.0 | 2025-01 | Initial version (inaccurate — see note at the top). |
