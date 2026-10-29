@@ -3,8 +3,8 @@
 **Bankroll Buddy**
 
 **Effective date: 17 August 2026**
-**Last updated: 17 August 2026**
-**Version: 2.0** (see Change log at the end of this document)
+**Last updated: 29 October 2026**
+**Version: 2.2** (see Change log at the end of this document)
 
 > **Note on the previous version.** The version of this policy dated January 2025 said that
 > all data stayed on your device and that no data was sent to any server. That was wrong:
@@ -90,8 +90,10 @@ up, not the image.
 
 ### 3.3 Your public profile and the social features
 
-If you use the optional social features, the following is stored in our cloud database and
-is visible to other users according to your privacy setting:
+The social features (profile, clubs, leagues, the feed and comments) are **switched off
+by default** and are only shown once you turn them on in Settings. If you use them, the
+following is stored in our cloud database and is visible to other users according to your
+privacy setting:
 
 - display name, username and short bio;
 - your **profile photo**, stored inside your profile record;
@@ -99,6 +101,17 @@ is visible to other users according to your privacy setting:
 - any sessions you choose to share, and comments you post.
 
 Profiles are private by default. You control what you share.
+
+**Reporting, blocking and filtering.** Every comment, post and profile has a *Report* and
+a *Block* option. A report stores who reported (your UID), who or what was reported, the
+reason you chose, any details you typed and a short copy of the reported text, and is
+emailed to our support mailbox; the reported person cannot see who reported them. Your
+list of blocked players is stored privately under your account and also cached on your
+device. Text you publish (comments, bios, display names, usernames) is checked by an
+automated filter and may be removed or reset if it contains slurs or incitement; we log
+that action together with an excerpt of the removed text. *Legal basis:* our legitimate
+interest in keeping the community safe (Art. 6(1)(f)) and our legal obligations as a
+platform for user content.
 
 *Purpose:* to operate the social features you choose to use.
 *Legal basis:* performance of our contract with you (Art. 6(1)(b)).
@@ -114,7 +127,7 @@ Apple and Google process the payment.
 *Legal basis:* performance of our contract (Art. 6(1)(b)); legal obligation for accounting
 records (Art. 6(1)(c)).
 
-### 3.5 Crash reports and diagnostics
+### 3.5 Crash reports, diagnostics and product analytics
 
 To find and fix faults, the App sends:
 
@@ -124,6 +137,28 @@ To find and fix faults, the App sends:
   screens you visited. Crashlytics reports carry your UID.
 - **Diagnostic events** (our own log): a category and event name, a short message, a
   severity, and the same device and screen context. These carry your UID.
+
+- **Usage fields on your profile record** (so we can tell whether the App works for
+  people and which versions are affected): the app version and build, the platform
+  (iOS or Android), the language, whether you have Pro (`free` or `pro`), the time you
+  finished onboarding and logged your first session, how many sessions you have saved and on
+  how many days, whether notifications are enabled and simple counters of how many reminders
+  were scheduled, tapped or switched off, whether you are signed in with Google
+  or Apple, and when you were last active. They contain **no names, no email addresses, no
+  amounts and no session content**. They are stored in your profile record, which other
+  signed-in users of the App could technically read; they are not shown anywhere in the App.
+
+- **Product analytics and screen recordings** (PostHog, from version 1.6): which screens
+  you open and which features you use (for example "session saved", "paywall shown" or
+  "report opened"), with coarse details such as the game type or the plan you picked, plus
+  the app version, device model, operating system, language and the region set on your
+  device. Your IP address is not stored and is not used to work out your location. These
+  events carry your UID. The App
+  also records how you move through its own screens (a "session replay": a sequence of
+  pictures of the App, never of other apps). Everything you type into a text field
+  (names, notes, venues, codes, feedback) is masked in these recordings; amounts and other
+  text shown on screen can be visible, so switch on Discreet mode if you want amounts
+  hidden. Recordings are kept for 30 days.
 
 These are not marketing analytics and are not shared with advertisers. Stack traces and
 context can occasionally contain fragments of text you typed; we do not seek that out and
@@ -157,6 +192,7 @@ minimum size. No individual results are shown to anyone.
 |---|---|---|
 | **Google (Firebase Authentication, Realtime Database, Cloud Firestore, Crashlytics)** | Account identifiers, cloud backup, profiles, crash and diagnostic reporting | EU and United States |
 | **RevenueCat, Inc.** | Subscription entitlement management | United States |
+| **PostHog, Inc.** | Product analytics and session recordings (section 3.5) | United States |
 | **Apple / Google Play** | Sell and bill subscriptions as merchant of record; they are independent controllers for the payment | Global |
 
 Each acts as our processor under a data-processing agreement, except Apple and Google Play
@@ -177,8 +213,13 @@ or comment that you would not want to be seen.
 ## 6. How long we keep data
 
 - **Your backup and profile:** for as long as your account exists. If you delete your
-  account, we delete them, and they disappear from our backups within 90 days.
+  account (Settings → Account → Delete account), we delete them immediately from our
+  databases, and they disappear from our backups within 90 days.
+- **Reports and moderation records:** reports about other people, and the log of content
+  removed by the filter, are kept for as long as needed to protect other users and for no
+  longer than 12 months.
 - **Crash and diagnostic data:** up to 90 days, then deleted or fully anonymised.
+- **Product analytics:** events up to 12 months; screen recordings 30 days.
 - **Aggregated benchmark statistics:** kept indefinitely, but they contain no personal data.
 - **Accounting records for purchases:** as long as Norwegian bookkeeping law requires
   (currently five years).
@@ -193,7 +234,7 @@ you are in the EEA or the UK, they are rights under the GDPR:
 
 - **Access** — a copy of the personal data we hold about you.
 - **Rectification** — correction of anything inaccurate.
-- **Erasure** — deletion of your account and data. You can also delete data in the App.
+- **Erasure** — deletion of your account and data. See "Deleting your account" below.
 - **Restriction** and **objection** — including objecting to the diagnostic processing in
   section 3.5, which relies on legitimate interests.
 - **Portability** — your data in a machine-readable form. You can also export it yourself
@@ -202,6 +243,35 @@ you are in the EEA or the UK, they are rights under the GDPR:
   processing already carried out.
 
 We answer within 30 days. There is no charge.
+
+### Deleting your account
+
+You can delete your account yourself, inside the App: **Settings → Account → Delete
+account**. The App first explains what will happen, asks you to confirm twice and, if you
+signed in with Apple or Google, asks you to sign in again. Nothing is deleted if you cancel.
+
+**Deleted:** your cloud backup (sessions, bankrolls, transactions, hands and everything
+else in section 3.2); your profile, username, bio, photo, followers and the people you
+follow; the sessions and comments you published; your club, league and home-game
+memberships and the clubs and games you host; your referral records; your pseudonymous
+account itself; and, on the device you used, the ledger and local backups. If you signed in
+with Apple, we also revoke the Sign in with Apple token.
+
+**Kept:** purchase records held by Apple, Google Play and RevenueCat under their own
+policies and our bookkeeping duties (section 6); reports and moderation records for up to
+12 months; diagnostic logs that contain only a pseudonymous ID, for up to 90 days; and the
+likes you gave other people's publications, which carry no name or profile once your
+account is gone. Copies in our backups are overwritten within 90 days.
+
+**Deleting your account does not cancel your subscription.** Subscriptions are billed and
+managed by Apple or Google; cancel yours in your store account settings, otherwise it will
+keep renewing. The delete screen links to the right page.
+
+**If you cannot open the App** (for example you uninstalled it, or lost the device), email
+**support@kawisoftware.com** from the address on your Apple/Google sign-in, or follow the
+instructions at our account-deletion page, and we will delete the account for you.
+Anonymous accounts cannot be identified without the device, so for those the in-App option
+is the only way.
 
 **Complaints.** If you think we have handled your data badly, please tell us first. You may
 also complain to the Norwegian Data Protection Authority, Datatilsynet
@@ -252,5 +322,7 @@ Email: **support@kawisoftware.com**
 
 | Version | Date | Summary |
 |---|---|---|
+| 2.2 | 2026-10-29 | Adds PostHog product analytics and screen recordings from version 1.6 (sections 3.5, 4 and 6). |
+| 2.1 | 2026-10-04 | Describes the 1.4.0 behaviour: social features off by default; report, block and automated text filtering (section 3.3); the usage fields kept on the profile record (section 3.5); retention of reports (section 6); and the in-App "Delete account" flow with exactly what is deleted and kept (section 7). |
 | 2.0 | 2026-08-17 | Complete rewrite for accuracy. The previous version stated that no data left the device and that we had no access to it; in fact the App creates a pseudonymous account on first launch and backs the user's records up to Firebase by default. This version identifies KAWI SOFTWARE AS as controller with a working contact address, describes every category of data actually processed (including venue GPS coordinates, wellbeing and tax fields, opponent names and notes, staking counterparties, profile photos and diagnostics), names the processors (Google Firebase, Crashlytics, RevenueCat), states the Art. 6 legal bases, retention periods, international-transfer safeguards, and the full set of data-subject rights. Removed the unverifiable transparency-report and "we cannot experience a data breach" claims. |
 | 1.0 | 2025-01 | Initial version (inaccurate — see note at the top). |
